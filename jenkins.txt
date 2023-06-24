@@ -1,0 +1,19 @@
+Error : E: Package 'jenkins' has no installation candidate
+FIx: - 
+Site: https://stackoverflow.com/questions/70541720/jenkins-has-no-installation-candidate-error-while-trying-to-install-jenkins-on
+You can add [trusted=yes] in the /etc/apt/sources.list.d/jenkins.list file.
+Initially /etc/apt/sources.list.d/jenkins.list will have,
+deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian binary/
+Update it as,
+deb [trusted=yes] https://pkg.jenkins.io/debian binary/
+After that run the installation instructions.
+
+Eg: for Debian releases
+
+sudo apt-get update
+sudo apt-get install fontconfig openjdk-11-jre
+sudo apt-get install jenkins
+
+NOte:- install jenkins in ubuntu 20.
+https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-22-04
+---------------------------------------------------------------------------------------------------------------------------
