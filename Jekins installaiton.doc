@@ -71,13 +71,16 @@ mvn -version
 Jenkins Global tool configuration settings 
 java path  - /usr/lib/jvm/java-8-openjdk-amd64/
 maven path - /usr/share/maven
+-----------------------------------------------------------
+Create a pipeline
+build step[execute shell] - mvn clean package
 -------------------------------------------------------------------
 Install Tomcat server
 
 1) install java 
 
 sudo apt update
-sudo apt install openjdk-8-jdk
+sudo apt install openjdk-8-jdk -y
 java -version
 
 2) Download tomcat packages from https://tomcat.apache.org/download-80.cgi onto /opt on EC2 instance
