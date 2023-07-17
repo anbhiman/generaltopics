@@ -1,0 +1,8 @@
+Access levels
+
+StakeHolder  - Stakeholders can’t check in the code and Hide options( repo,Testplan )
+Basic - “Basic” access level is the next access level in Azure DevOps and the users with basic access level can check-in the code and also can add a parent
+Basic+TestPlans - This access level enables the user to create TestSuites/Add TestCases to Testsuites and also execute them
+Visual Studio Professional - This has same access level as “Basic Level”
+Visual Studio Test Professional - same access level as “Basic+ TestPlans Level”..With this you get access to execute testcases and also create TestSuites & Add TestCases to the Test Suites
+Visual Studio Enterprise - This is the topmost level and it has all access has the above levels
