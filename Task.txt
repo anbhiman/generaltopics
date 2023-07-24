@@ -1,0 +1,4 @@
+Implement work item to release traceability within DevOps > Pipelines > Releases
+open release pipeline-> Edit pipeline->opitions -> intergration -> 
+
+Report deployment status to Boards,badges -> save
