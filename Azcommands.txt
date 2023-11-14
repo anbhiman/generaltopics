@@ -2,3 +2,4 @@ start/Stop VM:
 start-AzVM -ResourceGroupName 'rs-ks' -Name 'githubdemo'
 stop-AzVM -ResourceGroupName 'rs-ks' -Name 'githubdemo' -Force
 
+Remove-AzVM -ResourceGroupName "ResourceGroup11" -Name "VirtualMachine07"
