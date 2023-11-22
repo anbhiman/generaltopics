@@ -2,3 +2,11 @@ Implement work item to release traceability within DevOps > Pipelines > Releases
 open release pipeline-> Edit pipeline->opitions -> intergration -> 
 
 Report deployment status to Boards,badges -> save
+------------------------------------------------------------------
+
+Runacaccount to manageidentity changes in automation
+
+
+----------------------------------------------------------
+
+AzureRm to Az migration in pipelines and Automation account runbooks.
