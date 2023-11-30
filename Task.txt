@@ -3,9 +3,13 @@ open release pipeline-> Edit pipeline->opitions -> intergration ->
 
 Report deployment status to Boards,badges -> save
 ------------------------------------------------------------------
-Runasaccount to manageidentity changes in automation
+Runasaccount to manageidentity changes in automation - aug 2023
 ----------------------------------------------------------
-AzureRm to Az migration in pipelines and Automation account runbooks.
+AzureRm to Az migration in pipelines and Automation account runbooks. sep - Dec 2003
+=> Update agent vs2017 to Azure pipeline and window-latest
+=> Remove AzureRM tasks in piplines
+=> Check approval in QA stage (if any thing missing causal checking)
+=> update Aure powershell task version from 3 to 5 (which will remove connection type as classic,Azure Resouce Manger)
 ------------------------------------------------------------
 Classic pipelines are deprecated soon and MS support only YAML piplines.
 --------------------------------------------------------------
