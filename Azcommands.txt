@@ -1,3 +1,9 @@
+Get storage account:
+
+Connect-AzAccount
+Select-AzSubscription -SubscriptionName "test Development"
+Get-AzStorageAccount -ResourceGroupName "DEV-East-RG" -AccountName testsa
+---------------------------------------------------------------------------------------------
 start/Stop VM:
 start-AzVM -ResourceGroupName 'rs-ks' -Name 'githubdemo'
 stop-AzVM -ResourceGroupName 'rs-ks' -Name 'githubdemo' -Force
