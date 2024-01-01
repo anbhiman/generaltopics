@@ -1,0 +1,27 @@
+Migrate steps:
+1) change from RunAsAccount to Manage Identity in all runbooks.
+
+Account settings -> Identity ->SystemAssign status -> turn ON.
+  Add Object ID into subscription level-> Owner level access-> save.
+try
+{
+    "Logging in to Azure..."
+    Connect-AzAccount -Identity
+}
+catch {
+    Write-Error -Message $_.Exception
+    throw $_.Exception
+}
+2)Uninstal AzureRM modules and install/update AZ modules.
+3)As part of migration included AzureRM To AZ command changes in all runbooks
+4)Updated varibles if any changes required Shared Resources->varibles.
+
+High leavel NOtes:
+1) Examples
+Get-AzureRmSqlServer to Get-AzSqlServer
+Get-AzureRmSqlDatabase to Get-AzSqlDatabase
+Resume-AzureRmSqlDatabase to Resume-AzSqlDatabase
+Start-AzureRmAutomationRunbook to Start-AzAutomationRunbook
+AzureRmStorageAccountKey to AzStorageAccountKey
+2)az.account module loaded again
+3)
