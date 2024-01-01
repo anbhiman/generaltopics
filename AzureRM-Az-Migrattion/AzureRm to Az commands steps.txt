@@ -1,0 +1,6 @@
+1. AzureRM to AZ commands changes in all CI/CD pipelines nearly 30 peoples.
+2. Change Azure Poweshell Task type from version 3 to 5 (will remove authentication type AzureResourceManger)
+3. add below task 
+   Install-Module -Name AzTable -Force as a powershell 
+4. check approvals in QA,Prod if not pls include
+5. Agent are running in old os versin vs2017 hosted pipelines-> Azure pipelines.
